@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    gap:2vw
+}
+.navbar svg{
+    height: 30%;
+    width: 33%;
+    fill:black;
+    border-radius: 50%;
+}
+.navbar svg:hover{
+background-color: whitesmoke;
+cursor: poi;
+}
+@media screen and (min-width:250px){
+  .navbar svg{
+      margin-left: 5vh;
+  }
+}
